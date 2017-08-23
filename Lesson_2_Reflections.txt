@@ -1,0 +1,6 @@
+
+1) What happens when you initialize a repository? Why do you need to do it?
+A: An empty system directory called .git is created in the folder. This directory does not yet contain any commits of the contents of the parent folder. The git status provides a listing of the most recent commit and any untracked file in the parent folder.
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: The working directory is the static version of the latest file on the computer. The repository is a log of all the different versions of the files that have been committed to it. The staging area sits between the two, allowing the user to selectively add files from the working directory to the repository. This allows the user to add content to the repository in logical chunks rather than all at once.
