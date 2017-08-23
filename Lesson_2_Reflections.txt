@@ -4,3 +4,6 @@ A: An empty system directory called .git is created in the folder. This director
 
 2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: The working directory is the static version of the latest file on the computer. The repository is a log of all the different versions of the files that have been committed to it. The staging area sits between the two, allowing the user to selectively add files from the working directory to the repository. This allows the user to add content to the repository in logical chunks rather than all at once.
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+A: The working directory can be used to make changes as needed. The staging area can be used to verify and add changes to the repository on a piece by piece basis, allowing you to commit changes on a logical basis.
