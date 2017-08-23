@@ -7,3 +7,6 @@ A: The working directory is the static version of the latest file on the compute
 
 3) How can you use the staging area to make sure you have one commit per logical change?
 A: The working directory can be used to make changes as needed. The staging area can be used to verify and add changes to the repository on a piece by piece basis, allowing you to commit changes on a logical basis.
+
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: Branches would be helpful when experimenting with new features. The master branch (the file currently in production) could continue to be used un-interrupted, while experimentation could happen independently.
