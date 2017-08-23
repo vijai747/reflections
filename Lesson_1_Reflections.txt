@@ -1,0 +1,22 @@
+
+1) How did viewing a diff between two versions help you spot the bug?
+A: Using the diff function allowed me to see exactly which lines of code were unique to each file, allowing me to focus on a narrower set of potential errors than I otherwise would have.
+
+2) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A: Having the entire history of a file would allow me to more freely experiment on my code without worrying about screwing something up and spending time getting it to work again.
+
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+A: Pros - You end up with versions of a file that are logically complete (will run without errors). Plus you end up with a reasonable file size, since you are choosing how often to save.
+Cons - Human error. Despite best intentions, a programmer might forget to commit code changes for an extended period of time. Furthermore, the likelihood of a recent version may not be saved if the program crashes.
+
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A: By nature, code writing involves more situations in which multiple files are edit at the same time. As a result, it’s helpful to commit all files required to run a program at once. Google Docs, on the other hand, are independent files that are self contained. Thus, they treat each file separately.
+
+5) How can you use the commands git log and git diff to view the history of files?
+A: git log and git diff are used in conjunction. git log shows a list of all the previous commits and ids in a particular repository. The particular ids may be used to compare additions and deletions between versions.
+
+6) How might using version control make you more confident to make changes that could break something?
+A: Knowing that I can always revert to a previous state and pinpoint the code that introduced the error allows me to experiment more freely.
+
+7) Now that you have your workspace set up, what do you want to try using Git for?
+I want to try and use Git for all my future coding projects, starting with a ToDoist API experiment.
